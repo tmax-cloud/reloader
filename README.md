@@ -17,7 +17,7 @@ stakater reloader는 configmap, secret의 변경사항을 모두 감지하며, �
 
 ## Install
 ```
-helm install reloader -n realoader
+helm install reloader -n reloader
 ```
 ## 사용법
 
