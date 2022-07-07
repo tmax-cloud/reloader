@@ -1,6 +1,5 @@
 # reloader 가이드
-
-#### 현재 k8s는 configmap이나 secret이 업데이트 될 경우 해당 리소스를 사용하는 Deployment, Daemonsets, Statefulsets, Rollouts를 통해 생성된 pod 들의 재시작을 지원하지 않는다.
+### 현재 k8s는 configmap이나 secret이 업데이트 될 경우 해당 리소스를 사용하는 Deployment, Daemonsets, Statefulsets, Rollouts를 통해 생성된 pod 들의 재시작을 지원하지 않는다.
 
 ### 이에 대한 자동화 방안으로 3가지 방안이 있다.
 
@@ -16,7 +15,11 @@ stakater reloader는 configmap, secret의 변경사항을 모두 감지하며, �
 
 - k8s 1.19 이상의 버전에서만 지원한다.
 
-사용법은 다음과 같다.
+## Install
+```
+helm install reloader -n realoader
+```
+## 사용법
 
 ### 1. auto
 
