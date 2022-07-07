@@ -1,0 +1,14 @@
+# Generated from deployments/kubernetes/templates/chart/Chart.yaml.tmpl
+
+apiVersion: v1
+name: reloader
+description: Reloader chart that runs on kubernetes
+version: v0.0.117
+appVersion: v0.0.117
+keywords:
+  - Reloader
+  - kubernetes
+home: https://github.com/stakater/Reloader
+sources:
+  - https://github.com/stakater/Reloader
+
